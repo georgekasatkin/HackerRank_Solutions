@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_Array-DS", "HackerRank_Int_Arrays_2D_Array-DS\2D_Array-DS.csproj", "{59E10B03-0C77-4083-B416-20FD6EF2AAA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_Array-DS", "2D_Array-DS\2D_Array-DS.csproj", "{59E10B03-0C77-4083-B416-20FD6EF2AAA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_Array-DS.UnitTests", "2D_Array-DS.UnitTests\2D_Array-DS.UnitTests.csproj", "{035AD297-8A06-43A6-89E2-F924CEE2FFB5}"
 EndProject

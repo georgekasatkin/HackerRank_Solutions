@@ -7,7 +7,7 @@ namespace RansomNote
 {
     public class Program
     {
-        public static string canCreateNoteFromMagazine(string[] magazine, string[] note)
+        public static string CanCreateNoteFromMagazine(string[] magazine, string[] note)
         {
             Dictionary<string, int> magazineDictionary = new Dictionary<string, int>();
             foreach (string s in magazine)
@@ -33,7 +33,7 @@ namespace RansomNote
         {
             string[] magazine = Array.ConvertAll(Console.ReadLine().Split(' '), tmp => tmp);
             string[] note = Array.ConvertAll(Console.ReadLine().Split(' '), tmp => tmp);
-            string result = canCreateNoteFromMagazine(magazine, note);
+            string result = CanCreateNoteFromMagazine(magazine, note);
             Console.WriteLine(result);
             Console.ReadLine();
         }

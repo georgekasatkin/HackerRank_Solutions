@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomeNote\RansomNote.csproj", "{2D0468DA-3A0A-4E72-930D-0E77D00CD054}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\RansomNote.csproj", "{2D0468DA-3A0A-4E72-930D-0E77D00CD054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote.UnitTests", "RansomeNote.Tests\RansomNote.UnitTests.csproj", "{36673EA4-B526-4185-A75B-01FD0E32AFDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote.UnitTests", "RansomNote.Tests\RansomNote.UnitTests.csproj", "{36673EA4-B526-4185-A75B-01FD0E32AFDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -36,10 +36,10 @@ namespace RansomNote
             "No"
             }
         };
-        [Test, TestCaseSource("testCases"), MaxTime(50)]
-        public void isValidNote_GoodCases_ReturnsYes(string[] magazine, string[] note, string expectedResult)
+        [TestCaseSource("testCases"), MaxTime(50)]
+        public void isValidNote_testCases(string[] magazine, string[] note, string expectedResult)
         {
-            string result = Program.canCreateNoteFromMagazine(magazine, note);
+            string result = Program.CanCreateNoteFromMagazine(magazine, note);
             Assert.AreEqual(expectedResult, result);
         }
     }
